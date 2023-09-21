@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>thesis_thingy</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SciSharp.TensorFlow.Redist" Version="2.11.4" />
+    <PackageReference Include="TensorFlow.NET" Version="0.110.3" />
+    <PackageReference Include="Tesseract" Version="5.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Src\Main\Model\" />
+    <Folder Include="Src\Resources\Image\" />
+  </ItemGroup>
+
+</Project>
